@@ -154,4 +154,3 @@ const ReviewsComponent = () => {
 
 export default ReviewsComponent;
 
-// Content Endpoint list - https://api.yextapis.com/v2/accounts/me/config/resourcenames/streams/streams-endpoint?api_key=a4b02b315992d693663d4065ad9184bc&v=20230601
