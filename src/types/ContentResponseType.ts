@@ -1,11 +1,18 @@
-export interface Root {
+export interface ContentResponseRoot {
   meta: Meta;
   response: Response;
 }
 
 export interface Meta {
   uuid: string;
-  errors: any[];
+  errors: Error[];
+}
+
+export interface Error {
+  code: number;
+  type: string;
+  message: string;
+  name: string;
 }
 
 export interface Response {

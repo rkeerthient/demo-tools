@@ -26,6 +26,18 @@
         ],
         "event": "ON_PAGE_GENERATE",
         "functionName": "PagesGenerator"
+      },
+      {
+        "pluginName": "contentEndpoint-44197",
+        "event": "API",
+        "functionName": "default",
+        "apiPath": "api/contentEndpoint",
+        "sourceFiles": [
+          {
+            "root": "dist/functions/contentEndpoint-44197",
+            "pattern": "*{.js,.ts}"
+          }
+        ]
       }
     ]
   },

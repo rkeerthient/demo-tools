@@ -4,7 +4,7 @@ interface ResponseProps {
   status?: "error" | "success";
 }
 
-const ResponseCard = ({ respText, status }: ResponseProps) => {
+const ReviewsResponseCard = ({ respText, status }: ResponseProps) => {
   return (
     <div>
       {respText &&
@@ -12,9 +12,9 @@ const ResponseCard = ({ respText, status }: ResponseProps) => {
           <p key={key} className={`${status === "error" && `text-red-500`}`}>
             {item}
           </p>
-        ))}{" "}
+        ))}
     </div>
   );
 };
 
-export default ResponseCard;
+export default ReviewsResponseCard;
